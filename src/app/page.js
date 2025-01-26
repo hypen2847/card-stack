@@ -1,15 +1,12 @@
 "use client";
 import React, { useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 
 import './style.css';
 
-// import required modules
 import { EffectCards } from 'swiper/modules';
 import Image from 'next/image';
 
@@ -57,7 +54,7 @@ export default function App() {
             <SwiperSlide key={index}>
               <div className="relative h-full w-full">
                 <Image 
-                  src={`/muskan-images/image${index + 1}.JPG`} 
+                  src={`/image.jpg`} 
                   alt={`Image ${index + 1}`} 
                   width={200} 
                   height={200} 
