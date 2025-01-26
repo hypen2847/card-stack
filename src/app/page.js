@@ -57,7 +57,7 @@ export default function App() {
             <SwiperSlide key={index}>
               <div className="relative h-full w-full">
                 <Image 
-                  src={`/muskan-images/image${index + 1}.jpg`} 
+                  src={`/muskan-images/image${index + 1}.JPG`} 
                   alt={`Image ${index + 1}`} 
                   width={200} 
                   height={200} 
